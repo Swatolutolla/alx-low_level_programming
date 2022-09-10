@@ -13,5 +13,6 @@ int main(void)
 			putchar(a);
 			a++;
 		} while (a < 123);
+		putchar('\n');
 	return (0);
 }
