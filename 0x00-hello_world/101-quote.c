@@ -8,7 +8,7 @@ int main(void)
 {
 	char c[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
-	fprintf(stderr, "%s", c);
-	putchar('\n');
+	fprintf(stderr, "%s\n", c);
+
 	return (-1);
 }
