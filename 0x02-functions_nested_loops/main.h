@@ -2,7 +2,7 @@
 #define HEADER_FILE
 #include <stdio.h>
 
-int _putchar(char c)
+int _putchar(char c);
 
 
 #endif 
