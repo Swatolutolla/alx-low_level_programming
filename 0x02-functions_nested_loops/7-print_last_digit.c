@@ -3,12 +3,12 @@
 * print_last_digit - print the last digit of a number
 *
 *@j: is the number whose last digit will be printed
-* Return: Always Success
+* Return: Always 0 Success
 */
 int print_last_digit(int j)
 {
 	int i;
 		i = j % 10;
-		_putchar(i);
+		_putchar('i');
 	return (i);
 }
