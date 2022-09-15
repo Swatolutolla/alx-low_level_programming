@@ -2,7 +2,7 @@
 /**
 * print_numbers - print number 0-9
 *
-* Return: Always
+* Return: Always 0 (Success)
 */
 	void print_numbers(void)
 {
@@ -11,5 +11,6 @@
 			_putchar(i);
 		} while (i < 58);
 		_putchar('\n');
+		return (0);
 }
 
