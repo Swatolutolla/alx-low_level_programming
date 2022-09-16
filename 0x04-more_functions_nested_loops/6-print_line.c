@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
 * print_line - prints a line
 *
@@ -8,6 +8,7 @@
 void print_line(int n)
 {
 	int j = 0;
+
 	while (j < n)
 	{
 		putchar('_');
