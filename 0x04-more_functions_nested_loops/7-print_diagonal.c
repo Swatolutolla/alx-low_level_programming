@@ -7,8 +7,6 @@
 */
 void print_diagonal(int n)
 {
-	int i = 0;
-	int j = 0;
 
 		if (n <= 0)
 		{
@@ -16,8 +14,12 @@ void print_diagonal(int n)
 		}
 		else
 		{
+			int i = 0;
+
 			for ( ; i < n; i++)
 			{
+				int j = 0;
+
 				for ( ; j < n; j++)
 				{
 					if (j == i)
