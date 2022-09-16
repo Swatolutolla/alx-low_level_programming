@@ -7,19 +7,19 @@
 */
 void print_triangle(int size)
 {
+	int j, i;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		int j = 0;
 
-		for ( ; j <= size; j++)
+		for (j = 0; j <= size; j++)
 		{
-			int i = 0;
 
-			for ( ; i <= size; i++)
+			for (i = 0; i <= size; i++)
 			{
 				if (size - i >= j)
 				{
@@ -27,7 +27,7 @@ void print_triangle(int size)
 				}
 				else
 				{
-					_putchar(35 );
+					_putchar(35);
 				}
 			}
 			putchar('\n');
