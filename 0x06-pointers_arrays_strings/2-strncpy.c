@@ -11,7 +11,6 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int k = strlen(src);
-	int j = strlen(dest);
 	int i;
 
 	for (i = 0; (i < n && i <= k); i++)
