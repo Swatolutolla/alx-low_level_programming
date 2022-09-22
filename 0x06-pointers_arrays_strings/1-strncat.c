@@ -11,9 +11,10 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int  j = strlen(dest);
+	int k = strlen(src);
 	int i;
 
-	for (i = 0; (i < n && i <= strlen(src)); i++)
+	for (i = 0; (i < n && i <= k); i++)
 	{
 		dest[j + i] = src[i];
 	}
