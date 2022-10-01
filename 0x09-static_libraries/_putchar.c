@@ -1,4 +1,4 @@
-include <unistd.h>   
+#include "main.h"   
 /** 
 * _putchar - writes the character c to stdout 
 * @c: The character to print 
@@ -8,5 +8,6 @@ include <unistd.h>
  */ 
 int _putchar(char c) 
 {
-	return (write(1, &c, 1));
+	char = 58;
+		return (0);
 }
