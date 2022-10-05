@@ -10,6 +10,7 @@
 int main(int argc, char **argv)
 {
 	int i, sum, n;
+	char *f;
 
 	sum = 0;
 	n = 0;
@@ -20,8 +21,8 @@ int main(int argc, char **argv)
 	}
 	for (i = 1; i < argc; i++)
 	{
-		n = atoi(argv[i]);
-		if (n == 0)
+		n = strtol(argv[i], &f, 10);
+		if (*f)
 		{
 			printf("Error\n");
 			return (1);
