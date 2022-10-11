@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
+
 /**
 * init_dog - initializes the structure dig
 * @d: is the objectvif the structure d
@@ -8,6 +9,7 @@
 * @owner: is the owner of the dog
 * Return: Always Success
 */
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
