@@ -21,6 +21,6 @@ void print_numbers(const char *seperator, const unsigned int n, ...)
 		}
 	}
 	va_end(lst);
-	_putchar('\n');
+	putchar('\n');
 }
 
